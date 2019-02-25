@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="84" tests="2" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="2" failures="0" errors="0" time="84" timestamp="2019-02-22 08:19:54" hostname="root - 1a54bb4dc62e" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/TS_RegressionTest/20190222_081945"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/TS_RegressionTest/20190222_081945/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/TS_RegressionTest/20190222_081945/1550823674585.png"/>
+         <property name="hostName" value="root - 1a54bb4dc62e"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="172.17.0.3"/>
+         <property name="sessionId" value="116580be987f3ddceb40df223ac24228"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2019-02-22 08:19:56 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2019-02-22 08:20:01 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+2019-02-22 08:20:02 - [MESSAGE][INFO] - Story: Login to CURA system
+
+2019-02-22 08:20:02 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+2019-02-22 08:20:02 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+2019-02-22 08:20:02 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2019-02-22 08:20:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-22 08:20:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-22 08:20:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2019-02-22 08:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2019-02-22 08:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2019-02-22 08:20:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2019-02-22 08:20:31 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2019-02-22 08:20:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2019-02-22 08:20:33 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2019-02-22 08:20:33 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+2019-02-22 08:20:33 - [MESSAGE][INFO] - When he logins to CURA system
+
+2019-02-22 08:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2019-02-22 08:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2019-02-22 08:20:36 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+2019-02-22 08:20:36 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+2019-02-22 08:20:36 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2019-02-22 08:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2019-02-22 08:20:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-22 08:20:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="PASSED">
+         <system-out><![CDATA[2019-02-22 08:20:39 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+
+2019-02-22 08:20:41 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+2019-02-22 08:20:41 - [MESSAGE][INFO] - Story: Book an appointment
+
+2019-02-22 08:20:41 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+2019-02-22 08:20:41 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+2019-02-22 08:20:41 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2019-02-22 08:20:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-22 08:20:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2019-02-22 08:20:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2019-02-22 08:20:51 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2019-02-22 08:20:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2019-02-22 08:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2019-02-22 08:20:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2019-02-22 08:20:55 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2019-02-22 08:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2019-02-22 08:20:57 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2019-02-22 08:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2019-02-22 08:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2019-02-22 08:20:59 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2019-02-22 08:20:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2019-02-22 08:20:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2019-02-22 08:20:59 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+2019-02-22 08:20:59 - [MESSAGE][INFO] - And Appointment page is displayed
+
+2019-02-22 08:20:59 - [TEST_STEP][PASSED] - if (true): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2019-02-22 08:20:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2019-02-22 08:21:00 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2019-02-22 08:21:00 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2019-02-22 08:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2019-02-22 08:21:01 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2019-02-22 08:21:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2019-02-22 08:21:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016"): Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2019-02-22 08:21:04 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2019-02-22 08:21:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible."): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2019-02-22 08:21:08 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2019-02-22 08:21:08 - [TEST_STEP][PASSED] - comment("When he fills in valid information in Appointment page"): When he fills in valid information in Appointment page
+
+2019-02-22 08:21:08 - [MESSAGE][INFO] - When he fills in valid information in Appointment page
+
+2019-02-22 08:21:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraAppointment/btn_BookAppointment")): Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2019-02-22 08:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2019-02-22 08:21:11 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+2019-02-22 08:21:12 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+2019-02-22 08:21:12 - [TEST_STEP][PASSED] - comment("Then he should be able to book a new appointment"): Then he should be able to book a new appointment
+
+2019-02-22 08:21:12 - [MESSAGE][INFO] - Then he should be able to book a new appointment
+
+2019-02-22 08:21:12 - [TEST_STEP][PASSED] - if (true): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2019-02-22 08:21:12 - [TEST_STEP][PASSED] - verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false): Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2019-02-22 08:21:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+2019-02-22 08:21:12 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2019-02-22 08:21:12 - [TEST_STEP][PASSED] - verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+2019-02-22 08:21:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+2019-02-22 08:21:13 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+2019-02-22 08:21:13 - [TEST_STEP][PASSED] - verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false): Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2019-02-22 08:21:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+2019-02-22 08:21:13 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2019-02-22 08:21:13 - [TEST_STEP][PASSED] - verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false): Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2019-02-22 08:21:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+2019-02-22 08:21:14 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2019-02-22 08:21:14 - [TEST_STEP][PASSED] - verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2019-02-22 08:21:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+2019-02-22 08:21:14 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2019-02-22 08:21:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-02-22 08:21:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/TS_RegressionTest/20190222_081945/1550823674585.png]]
+
+2019-02-22 08:21:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-22 08:21:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-22 08:19:54 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/Main Test Cases/TC2_Verify Successful Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
